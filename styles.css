@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.profile-pic {
+  background-image: url(images/paulv.jpeg);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.nav-main {
+  background-color: #354051;
+}
