@@ -4,9 +4,28 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 main {
   display: grid;
   grid-template-columns: 200px 1fr;
+}
+
+.nav-main-container {
+  background-color: #354051;
+ 
+}
+
+/* Profile Pic Section */
+
+.nav-main-profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #EDF2F6;
+  border-bottom: 5px solid black;
 }
 
 .profile-pic {
@@ -15,8 +34,72 @@ main {
   width: 100px;
   background-size: cover;
   border-radius: 50%;
+  margin: 35px 0 15px;
 }
 
-.nav-main {
-  background-color: #354051;
+.profile-pic-name {
+  padding-bottom: 35px;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+/* Nav First Section */
+
+.nav-main-section {
+  border-bottom: 5px solid black;
+}
+
+.nav-main-section h3 {
+  font-size: 11px;
+  padding: 30px 15px 20px;
+}
+
+.nav-main-section h2 {
+  font-size: 14px;
+  color: #7E8BA5;
+  padding: 30px 15px 20px
+}
+
+
+
+
+
+/* Nav Admin Section */
+
+.nav-admin-section {
+  border-bottom: 5px solid black;
+}
+
+.nav-admin-section h2 {
+  font-size: 14px;
+  color: #7E8BA5;
+  padding: 30px 15px 20px
+}
+
+.nav-admin-section h3 {
+  font-size: 11px;
+  padding: 30px 15px 20px;
+}
+
+
+
+
+
+
+
+/* Nav categories section */
+
+.nav-categories-section {
+  border-bottom: 5px solid black;
+}
+
+.nav-categories-section h3 {
+  font-size: 11px;
+  padding: 30px 15px 20px;
+}
+
+.nav-categories-section h2 {
+  font-size: 14px;
+  color: #7E8BA5;
+  padding: 30px 15px 20px
 }
