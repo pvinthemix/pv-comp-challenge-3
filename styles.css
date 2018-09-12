@@ -49,16 +49,18 @@ main {
   border-bottom: 5px solid black;
 }
 
-.nav-main-section h3 {
-  font-size: 11px;
-  padding: 30px 15px 20px;
-}
-
 .nav-main-section h2 {
   font-size: 14px;
-  color: #7E8BA5;
+  color: #bbceed;
   padding: 30px 15px 20px
 }
+.nav-main-section h3 {
+  font-size: 12px;
+  padding: 30px 15px 0px;
+  color: #7E8BA5;
+  font-weight: 900;
+}
+
 
 
 
@@ -72,13 +74,15 @@ main {
 
 .nav-admin-section h2 {
   font-size: 14px;
-  color: #7E8BA5;
+  color: #bbceed;
   padding: 30px 15px 20px
 }
 
 .nav-admin-section h3 {
-  font-size: 11px;
-  padding: 30px 15px 20px;
+  font-size: 12px;
+  padding: 30px 15px 0px;
+  color: #7E8BA5;
+  font-weight: 900;
 }
 
 
@@ -93,13 +97,32 @@ main {
   border-bottom: 5px solid black;
 }
 
-.nav-categories-section h3 {
-  font-size: 11px;
-  padding: 30px 15px 20px;
-}
-
 .nav-categories-section h2 {
   font-size: 14px;
-  color: #7E8BA5;
+  color: #bbceed;
   padding: 30px 15px 20px
 }
+.nav-categories-section h3 {
+  font-size: 12px;
+  padding: 30px 15px 0px;
+  color: #7E8BA5;
+  font-weight: 900;
+}
+
+.fa-check-square {
+  color: yellow;
+}
+
+.small-blue-square {
+  color: blue;
+}
+
+.small-red-square {
+  color: red;
+}
+
+.small-green-square {
+  color: green;
+}
+
+
