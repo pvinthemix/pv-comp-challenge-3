@@ -6,16 +6,17 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  
 }
 
 main {
   display: grid;
   grid-template-columns: 200px 1fr;
+
 }
 
 .nav-main-container {
   background-color: #354051;
-  /*border-left: solid transparent 2px*/
  
 }
 
@@ -47,6 +48,7 @@ main {
 
 /* Navigation bar titles and links */
 
+
 .nav-bar-directory {
   font-size: 13px;
   color: #bbceed;
@@ -67,6 +69,7 @@ main {
   filter: brightness(110%);
   border-left: solid blue 2px;
 }
+
 
 
 /* Nav First Section */
@@ -103,6 +106,12 @@ main {
   margin: 10px
 }
 
+
+.main-content-2 {
+  width: 100%;
+  height: 100%;
+
+}
 
 
 /* Search Bar Section */
@@ -187,7 +196,6 @@ main {
   border: solid grey 3px;
   display: inline-block;
   text-align: center;
-
 }
 
 .open-button {
@@ -202,11 +210,10 @@ main {
   display: flex;
   font-size: 11px;
   font-weight: bold;
-  height: 50px;
+  height: 40px;
   justify-content: space-between;
-  margin: 55px 40px;
-  padding: 5px 200px 0px 25px;
-  width: 100%;
+  margin: 38px 40px 10px;
+  padding: 5px 0px 0px 25px;
 }
 
 .header-button-bar-container h3 {
@@ -219,4 +226,63 @@ main {
   color: black;
 }
 
+
+/* Graphs Section  */
+
+.graphs-container {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  height: 425px;
+  width: 100%;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+  background-color: #EdF2F6;
+}
+
+.circle-graphs-container {
+
+}
+
+.bar-graph-image {
+  display: flex;
+  justify-content: center;
+  background: url('images/bar-graph.png') no-repeat;
+  background-size: cover;
+  height: 175px;
+  width: 343.5px;
+  margin-top: 20%;
+  margin-left: 25px;
+}
+
+.bar-graph-button {
+  display: block;
+  height: 35px;
+  margin: auto;
+  border-radius: 20%/50%;
+  width: 115px;
+  font-size: 10px;
+}
+
+
+/* Resume and social media section */
+
+.resume-and-social-media-container {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  width: 100%;
+  height: 100vh;
+  border: solid black 2px;
+  align-items: center;
+  justify-items: center;
+}
+
+.resume-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr;
+  width: 85%;
+  height: 85%;
+  border: solid black 2px;
+  align-self: center;
+}
 

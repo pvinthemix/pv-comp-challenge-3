@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-  <main>
+  <main class="main-content-1">
 
     <!-- //Navigation bar - left// -->
 
@@ -44,49 +44,93 @@
 
     </nav>
 <!-- Top right section  -->
-    <header>
-      <section class="header-search-bar-container">
-        <div class="header-search-hamburger top-buttons"><i class="fas fa-caret-left top-icons"></i><i class="fas fa-bars top-icons"></i></div>
-        <form>
-          <input class="header-search-search-bar" placeholder="Search for a job, task, or resume">
-        </form>
-        <div class="header-search-add-person top-buttons"><i class="fas fa-user-plus top-icons"></i></div>
-        <div class="header-search-calendar top-buttons"><i class="fas fa-calendar-alt top-icons"></i></div>
-        <div class="header-search-applications top-buttons"><i class="fas fa-grip-horizontal top-icons"></i></div>
+      <section class="main-content-2">
+      <header>
+        <section class="header-search-bar-container">
+          <div class="header-search-hamburger top-buttons"><i class="fas fa-caret-left top-icons"></i><i class="fas fa-bars top-icons"></i></div>
+          <form>
+            <input class="header-search-search-bar" placeholder="Search for a job, task, or resume">
+          </form>
+          <div class="header-search-add-person top-buttons"><i class="fas fa-user-plus top-icons"></i></div>
+          <div class="header-search-calendar top-buttons"><i class="fas fa-calendar-alt top-icons"></i></div>
+          <div class="header-search-applications top-buttons"><i class="fas fa-grip-horizontal top-icons"></i></div>
+        </section>
+
+
+        <section class="header-job-title-container">
+            <h1 class="job-title-text">Customer Service Representative</h1>
+          <div class="job-title">
+            <h2 class="job-title-location"><i class="fas fa-map-marker-alt job-title-location"></i>San Francisco, CA<span <i class="fas fa-circle"></span> <span class="job-title-preview"></i>Preview This Post</span></h2>
+            <button class="job-title-buttons open-button">Open</button>
+            <button class="job-title-buttons"><i class="fas fa-bookmark"></i></button>
+            <button class="job-title-buttons"><i class="fas fa-pen"></i></button>
+            <button class="job-title-buttons"><i class="fas fa-trash-alt"></i></button>
+          </div>
+        </section>
+        <section class="header-button-bar-container">
+          <h3>SUMMARY</h3>
+          <h3>APPLICANTS</h3>
+          <h3>JOB BOARD</h3>
+          <h3>INTERVIEWS</h3>
+          <h3>ACTIVITY</h3>
+          <h3>BROADCAST</h3>
+          <h3>NOTIFICATIONS</h3>
+        </section>
+      </header>
+
+
+      <!-- Graphs Section -->
+      <section class="graphs-container">
+        <div class="circle-graphs-container">
+          <!-- <svg viewBox="0 0 36 36">
+            <path d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831" fill="none"
+              stroke="#444" ; stroke-width="1" ; />
+          </svg>
+           -->
+        </div>
+        
+        <div class="bar-graphs-container">
+          <div class="bar-graph-image"></div>
+          <button class="bar-graph-button">APPLICANTS/DAY</button>
+          
+        </div>
+        
+
       </section>
 
 
-      <section class="header-job-title-container">
-          <h1 class="job-title-text">Customer Service Representative</h1>
-        <div class="job-title">
-          <h2 class="job-title-location"><i class="fas fa-map-marker-alt job-title-location"></i>San Francisco, CA<span <i class="fas fa-circle"></span> <span class="job-title-preview"></i>Preview This Post</span></h2>
-          <button class="job-title-buttons open-button">Open</button>
-          <button class="job-title-buttons"><i class="fas fa-bookmark"></i></button>
-          <button class="job-title-buttons"><i class="fas fa-pen"></i></button>
-          <button class="job-title-buttons"><i class="fas fa-trash-alt"></i></button>
+      <!-- Resume and Social Media section -->
+
+      <section class="resume-and-social-media-container">
+        <div class="resume-container">
+          <header class="job-description">
+            <h3>Job Description</h3>
+          </header>
+            <div class="resume-edit-button"><button>EDIT</button></div>
+              <h3 class="resume-title-headers">POSITION TITLE</h3>
+                <p class="resume-title-details">Customer Service Representative</p>
+              <h3 class="resume-title-headers">LOCATION</h3>
+                <p class="resume-title-details">San Francisco, CA</p>
+              <h3 class="resume-title-headers">EMPLOYMENT TYPE</h3>
+                <p class="resume-title-details">Full-Time</p>
+              <h3 class="resume-title-headers">EXPERIENCE</h3>
+                <p class="resume-title-details">Mid-level</p>
+              <h3 class="resume-title-headers">STATUS</h3>
+                <p class="resume-title-details">Open</p>
+              <h3 class="resume-title-headers">DESCRIPTION</h3>
+                <p class="resume-title-details">
+                  The Customer Service Representative is responsible for interacting with and prodiving quality assistance to all radical customer, responsible for keeping up-to-date on the various product shizzle, helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich
+                </p>
+              <h3 class="resume-title-headers">HIRING LEAD</h3>
+                <p class="resume-title-details">Tom Tizzy</p>
+              <h3 class="resume-title-">APPROVED SALARY</h3>
+                <p class="resume-title-details">$58,000</p>
         </div>
       </section>
-      <section class="header-button-bar-container">
-        <h3>SUMMARY</h3>
-        <h3>APPLICANTS</h3>
-        <h3>JOB BOARD</h3>
-        <h3>INTERVIEWS</h3>
-        <h3>ACTIVITY</h3>
-        <h3>BROADCAST</h3>
-        <h3>NOTIFICATIONS</h3>
-      </section>
-    </header>
 
-
-    <!-- Graphs Section -->
-    <section></section>
-
-
-    <!-- Resume and Social Media section -->
-
-    <section></section>
-
-
+    </section>
   </main>
 </body>
 </html>
