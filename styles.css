@@ -113,7 +113,6 @@ main {
 
 }
 
-
 /* Search Bar Section */
 
 .header-search-bar-container {
@@ -126,6 +125,7 @@ main {
   display: flex;
   justify-content: center;
   border:#e1e4ea 2px solid;
+  border-top: none;
 }
 
 .top-icons {
@@ -143,6 +143,7 @@ main {
   height: 80px;
   font-size: 20px;
   padding-left: 45px;
+  border-top: none;
 }
 
 .fa-bars {
@@ -240,6 +241,9 @@ main {
 }
 
 .circle-graphs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -261,6 +265,11 @@ main {
   border-radius: 20%/50%;
   width: 115px;
   font-size: 10px;
+}
+
+.circle-chart__circle {
+  transform: rotate(-90deg);
+  transform-origin: center;
 }
 
 
