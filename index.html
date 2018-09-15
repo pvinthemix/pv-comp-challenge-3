@@ -61,7 +61,7 @@
             <h1 class="job-title-text">Customer Service Representative</h1>
           <div class="job-title">
             <h2 class="job-title-location"><i class="fas fa-map-marker-alt job-title-location"></i>San Francisco, CA<span <i class="fas fa-circle"></span> <span class="job-title-preview"></i>Preview This Post</span></h2>
-            <button class="job-title-buttons open-button">Open</button>
+            <button class="job-title-buttons open-button"><i class="fas fa-circle open-icon"> <span class="open-icon-text"> OPEN </span> </i></button>
             <button class="job-title-buttons"><i class="fas fa-bookmark"></i></button>
             <button class="job-title-buttons"><i class="fas fa-pen"></i></button>
             <button class="job-title-buttons"><i class="fas fa-trash-alt"></i></button>
@@ -82,33 +82,49 @@
       <!-- Graphs Section -->
       <section class="graphs-container">
         <div class="circle-graphs-container">
+          <div class="circle-graphs-other-container">
           <svg class="circle-chart" viewbox="0 0 180 180" width="180" height="180" xmlns="http://www.w3.org/2000/svg">
             <circle class="circle-chart__background" stroke="#D3D3D3" stroke-width="10" fill="none" cx="90" cy="90" r="85" />
             <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="10" stroke-dasharray="400,534" stroke-linecap="round"
               fill="none" cx="90" cy="90" r="85" />
+              <text x="50%" y="40%" text-anchor="middle" class="percentage">
+                <tspan x="50%" dy=".6em">3,154</tspan>
+                <tspan x="50%" dy="1.2em">APPLICANTS</tspan>
+              </text>
 
           </svg>
             <svg class="circle-chart" viewbox="0 0 180 180" width="180" height="180" xmlns="http://www.w3.org/2000/svg">
             <circle class="circle-chart__background" stroke="#D3D3D3" stroke-width="10" fill="none" cx="90" cy="90" r="85" />
             <circle class="circle-chart__circle" stroke="#26a6f7" stroke-width="10" stroke-dasharray="180,534" stroke-linecap="round"
                 fill="none" cx="90" cy="90" r="85" />
+                <text x="50%" y="40%" text-anchor="middle" class="percentage" text-anchor="middle">
+                  <tspan x="50%" dy=".6em">1,546</tspan>
+                  <tspan x="50%" dy="1.2em">INTERVIEWS </tspan>
+                </text>
+                
           </svg>
+
 
              <svg class="circle-chart" viewbox="0 0 180 180" width="180" height="180" xmlns="http://www.w3.org/2000/svg">
               <circle class="circle-chart__background" stroke="#D3D3D3" stroke-width="10" fill="none" cx="90" cy="90" r="85" />
               <circle class="circle-chart__circle" stroke="#9932CC" stroke-width="10" stroke-dasharray="90,534" stroke-linecap="round"
                   fill="none" cx="90" cy="90" r="85" />
+                  <text x="50%" y="40%" text-anchor="middle" class="percentage">
+                    <tspan x="50%" dy=".6em">912</tspan>
+                    <tspan x="50%" dy="1.2em">FORWARDS</tspan>
+                  </text>
             </svg>
-          
-        </div>
-        
+            </div>
+            <div class="other-button">
+              <button>Button</button>
+            </div>
+            
+          </div>
+            
         <div class="bar-graphs-container">
           <div class="bar-graph-image"></div>
           <button class="bar-graph-button">APPLICANTS/DAY</button>
-          
         </div>
-        
-
       </section>
 
 
