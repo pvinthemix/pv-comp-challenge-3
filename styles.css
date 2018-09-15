@@ -268,7 +268,7 @@ main {
 
 .resume-and-social-media-container {
   display: grid;
-  grid-template-columns: 1fr 450px;
+  grid-template-columns: 1fr 400px;
   width: 100%;
   height: 100vh;
   align-items: center;
@@ -280,8 +280,8 @@ main {
   display: grid;
   grid-template-columns:  200px 1fr;
   grid-template-rows: repeat(9, 1fr);
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   align-self: center;
   font-size: 13px;
   color: #7E8BA5;
@@ -336,26 +336,52 @@ main {
 
 
 .social-media-section-container {
-  width: 80%;
-  height: 80%;
-  border: solid black 2px;
+  width: 90%;
+  height: 90%;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
+  margin-right: 30px;
+  align-items: center
 }
 
-.social-media-box {
+.box {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid black 2px;
   flex-direction: column;
   
 }
 
 .social-media-buttons {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
+  width: 300px;
+  height: 65px;
+  color: white;
+  margin: 10px 65px 10px 0px;
+}
+
+.social-media-buttons:hover {
+  cursor: pointer;
+  filter: brightness(110%)
+}
+.social-media-box {
+  justify-content: space-between;
+}
+
+.facebook {
+  background-color: #3B5998;
+}
+
+.twitter {
+  background-color: #1dcaff;
+}
+
+.linkedin {
+  background-color: #0077B5;
+}
+
+.fab {
+  margin: 10px;
+}
+
+.links-container {
 }
 
 .link-to-this-job-container {
@@ -366,6 +392,25 @@ main {
   
 }
 
-.social-media-buttons {
-  
+.social-title {
+  color: #354051;
+  font-size: 16px;
+}
+
+.social-text {
+  font-size: 13px;
+  color: #7E8BA5;
+  margin-left: 10px;
+}
+
+.resume-input-form {
+  width: 220px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.resume-input-copy {
+  width: 50px;
+  height: 50px;
+  background-color: #00aeb1;
 }
