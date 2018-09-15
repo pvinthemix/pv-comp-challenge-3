@@ -6,18 +6,15 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  
 }
 
 main {
   display: grid;
   grid-template-columns: 200px 1fr;
-
 }
 
 .nav-main-container {
   background-color: #354051;
- 
 }
 
 
@@ -244,12 +241,12 @@ main {
 
 .graphs-container {
   display: grid;
-  grid-template-columns: 1fr 500px;
-  height: 425px;
+  grid-template-columns: 3fr 2fr;
   width: 100%;
   border-bottom: solid black 2px;
   border-top: solid black 2px;
   background-color: #EdF2F6;
+  padding: 50px 0px 50px 0px;
 }
 
 .circle-graphs-container {
@@ -257,7 +254,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
+  padding-bottom: 20px;
 }
 
 .bar-graph-image {
@@ -267,17 +264,24 @@ main {
   background-size: cover;
   height: 175px;
   width: 343.5px;
-  margin-top: 20%;
   margin-left: 25px;
 }
 
-.bar-graph-button {
-  display: block;
+.graph-buttons {
+  display: flex;
+  justify-content: center;
   height: 35px;
-  margin: auto;
-  border-radius: 20%/50%;
-  width: 115px;
+  align-items: center;
   font-size: 10px;
+}
+
+.graph-button-style {
+  font-size: 13px;
+  height: 20px;
+  width: 172px;
+  border-radius: 10px;
+  color: gray;
+
 }
 
 
@@ -299,8 +303,24 @@ main {
 .percentage {
   color: #7E8BA5;
   font-size: 20px;
-
 }
+
+/* hr {
+  border: 1px solid rgb(229 230 233);
+  width: 40%;
+  display: inline-block;
+}
+.left {
+  margin: 3px 5px 0 40px;
+}
+.right {
+  margin: 3px 45px 0 5px;
+}
+.arrow-button {
+  border-radius: 50px;
+  padding: 0.5rem 0.7rem;
+  outline-width: 0;
+} */
 
 
 /* Resume and social media section */
@@ -403,6 +423,7 @@ main {
   color: white;
   margin: 10px;
   border-radius: 10px;
+  flex-direction: row;
 }
 
 .social-media-buttons:hover {
@@ -430,14 +451,7 @@ main {
 }
 
 .links-container {
-}
-
-.link-to-this-job-container {
-  
-}
-
-.use-the-button-widget {
-  
+  border-bottom: solid #e1e4ea 2px;
 }
 
 .social-title {
