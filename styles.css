@@ -332,6 +332,18 @@ main {
   margin-right: 20px;
 }
 
+.hiring-pic {
+  display: flex;
+  align-items: center;
+  background-image: url(images/paulv.jpeg);
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+  
+
 /* social media container section */
 
 
