@@ -125,6 +125,10 @@ main {
   border-top: none;
 }
 
+.fa-caret-left {
+  margin-right: 0px;
+}
+
 .top-icons {
   margin-top: 25px;
 }
@@ -132,6 +136,7 @@ main {
 .top-buttons:hover {
   cursor: pointer;
   background-color: #26a6f7;
+  color: white;
 }
 
 .header-search-search-bar {
@@ -194,6 +199,11 @@ main {
   border: solid grey 3px;
   display: inline-block;
   text-align: center;
+}
+
+.job-title-buttons:hover {
+  cursor: pointer;
+  background-color: #354051;
 }
 
 .open-button {
@@ -282,6 +292,11 @@ main {
   font-size: 10px;
 }
 
+.graph-buttons:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+}
+
 
 
 .graph-button-style {
@@ -313,7 +328,8 @@ main {
 }
 
 .chart-div-line {
-  background-color: #EDF2F6
+  background-color: #EDF2F6;
+  text-align: center;
 }
 
 hr {
@@ -403,6 +419,7 @@ hr {
   align-items: center;
   border-bottom: solid #e1e4ea 2px;
   margin-right: 20px;
+  padding: 10px;
 }
 
 .hiring-pic {
@@ -519,7 +536,7 @@ hr {
   }
 
   .graphs-container {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 
   .graph-left-button {
@@ -529,25 +546,54 @@ hr {
   .resume-and-social-media-container {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   .social-media-section-container {
-    grid-template-columns: 2fr 2fr;
-}
-
-}
-
-@media (max-width: 640px) {
-  .job-title {
     grid-template-columns: 1fr;
-    display: flex;
+    justify-items: center;
+    padding: 0px 100px 0px 100px;
+  }
+
+  .resume-container {
+    width: 80%;
+  }
+
+  .links-container {
+    width: 70vh;
+  }
+
+}
+
+@media (max-width: 740px) {
+  .job-title {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin: 0px;
+    justify-items: center;
+
   }
 
   .job-title-location {
-    grid-template-columns: 1fr;
+    grid-column: span 4;
+    margin: 10px;
   }
 
-  ..job-title-text {
-    text-align:center;
+  .job-title-text {
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  .links-container {
+    width: 50vh;
+  }
+
+  .social-media-section-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 0px 100px 0px 100px;
   }
 }
