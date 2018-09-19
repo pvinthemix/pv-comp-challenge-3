@@ -259,16 +259,12 @@ main {
   padding: 50px 0px 50px 0px;
 }
 
-.circle-graphs-container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-bottom: 20px;
-}
-
 .circle-graphs-other-container {
   display: flex;
+}
+
+.circle-chart {
+  margin: 0px 5px;
 }
 
 .bar-graph-image {
@@ -279,7 +275,7 @@ main {
   justify-content: center;
   margin-bottom: 20px;
   width: 380.5px;
-  
+
 }
 
 .graph-buttons {
@@ -622,12 +618,7 @@ hr {
 
 
 
-@media (max-width: 768px) {
-
-
-}
-
-@media (max-width: 400px){
+@media (max-width: 500px){
   .header-button-bar-container {
     display: grid;
     grid-template-columns: 1fr 1fr;  
@@ -669,8 +660,21 @@ hr {
   }
 
   .resume-title-details {
-    margin-left: 40px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    justify-content: center;
   }
+
+  .resume-title-headers {
+    margin: 20px;
+    justify-content: center;
+  }
+
+  .resume-edit-button-container,
+  .top-title {
+    justify-content: center;
+  }
+
   .social-media-section-container {
     display: none;
   }
