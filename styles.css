@@ -609,7 +609,6 @@ hr {
   }
 
   hr {
-    border: 1px solid #354051;
     width: 30%;
     display: inline-block;
   }
@@ -640,7 +639,6 @@ hr {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 10px 10px;
-
   }
 
   .fa-map-marker-alt {
@@ -650,8 +648,9 @@ hr {
   .graphs-container {
     display: none;
   }
+
   .chart-div-line {
-    display: none;
+    padding-top: 10px;
   }
 
   .resume-container {
@@ -677,6 +676,10 @@ hr {
 
   .social-media-section-container {
     display: none;
+  }
+
+  hr {
+    width: 20%;
   }
 }
 
