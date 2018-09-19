@@ -159,8 +159,6 @@ main {
   border-right: none;
 }
 
-
-
 /* Customer service title section */
 
 .job-title {
@@ -524,7 +522,7 @@ hr {
   .main-content-2 {
     display: grid;
     grid-template-columns: 1fr;
-}
+  }
 
   .nav-main-container {
     display: none;
@@ -614,7 +612,6 @@ hr {
   }
 
 }
-
 
 
 @media (max-width: 500px){
